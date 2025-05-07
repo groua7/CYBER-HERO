@@ -1,1 +1,99 @@
 
+🔐 Top Frameworks Every Cybersecurity Analyst Should Know
+
+⚠️ NOTE: This guide is intended as a foundational reference for cybersecurity students, professionals, and ethical hackers. Each framework listed here plays a critical role in either governance, detection, response, or continuous improvement in cybersecurity operations.
+
+
+🧭 1. NIST Cybersecurity Framework (NIST CSF)
+
+Big Idea: Provides a structured approach to managing and reducing cybersecurity risks.
+
+Core Functions: Identify, Protect, Detect, Respond, Recover.
+
+Use Case: Used by businesses and government agencies to build a strong security program and evaluate risk.
+
+
+🛡️ 2. MITRE ATT&CK
+
+Big Idea: A globally accessible knowledge base of adversary tactics and techniques based on real-world observations.
+
+Focus Areas: TTPs (Tactics, Techniques, and Procedures) used by threat actors.
+
+Use Case: Threat detection, threat hunting, red teaming, SOC analysis.
+
+
+🕵️ 3. Lockheed Martin Cyber Kill Chain
+
+Big Idea: A model that outlines the stages of a cyber attack from reconnaissance to exfiltration.
+
+Stages: Recon, Weaponization, Delivery, Exploitation, Installation, Command & Control, Actions on Objectives.
+
+Use Case: Helps understand attacker behavior and how to break the chain to stop attacks early.
+
+
+📋 4. CIS Controls (Center for Internet Security Controls)
+
+Big Idea: A prioritized set of cybersecurity best practices.
+
+Key Features: 18 critical security controls grouped by implementation tiers.
+
+Use Case: Used to improve cyber hygiene, especially in small to mid-sized organizations.
+
+
+🏛️ 5. ISO/IEC 27001
+
+Big Idea: International standard for information security management systems (ISMS).
+
+Focus: Risk management, compliance, and protecting sensitive information.
+
+Use Case: Adopted by organizations for certification, data governance, and international compliance.
+
+
+🧪 6. OWASP Top 10
+
+Big Idea: A regularly-updated list of the top 10 most critical web application security risks.
+
+Recent Focus: Injection, Broken Auth, Insecure Design, etc.
+
+Use Case: Web app development, secure coding, application security testing.
+
+
+🧰 7. NIST SP 800 Series
+
+Big Idea: A collection of publications by NIST to support federal information systems security.
+
+Notable Docs: SP 800-53 (controls), SP 800-171 (contractor security), SP 800-61 (incident response).
+
+Use Case: Federal security requirements, compliance, risk management frameworks.
+
+
+⚙️ 8. COBIT (Control Objectives for Information and Related Technologies)
+
+Big Idea: A framework for IT management and governance.
+
+Focus: Aligning IT goals with business objectives.
+
+Use Case: Enterprise IT governance, audit, and compliance.
+
+
+🌍 9. GDPR (General Data Protection Regulation)
+
+Big Idea: Legal framework for data protection and privacy in the EU.
+
+Core Focus: Consent, data minimization, rights of data subjects.
+
+Use Case: Compliance for companies handling EU citizen data.
+
+🧬 10. Zero Trust Architecture (ZTA)
+
+Big Idea: "Never trust, always verify." No user or device is trusted by default.
+
+Principles: Least privilege, micro-segmentation, continuous verification.
+
+
+Use Case: Modern enterprise networks, remote work security, identity-based access control.
+
+✅ Pro Tip: Cybersecurity is about layers—use these frameworks together to build strong, adaptive, and compliant security programs.
+
+✍️ Maintained by: groua7
+💼 Role: Cybersecurity Analyst | Framework-Focused Defender
