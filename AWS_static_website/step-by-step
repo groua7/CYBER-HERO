@@ -1,0 +1,107 @@
+# AWS Static Website Hosting (S3 + Route53 + CloudFront + ACM)
+
+This guide shows you how to host a static website using:
+- **Amazon S3** for storage
+- **Amazon Route 53** for domain name
+- **AWS Certificate Manager (ACM)** for HTTPS
+- **Amazon CloudFront** as the CDN (with secure access to S3 only)
+
+We will **not** grant public access to the S3 bucket. Instead, CloudFront will securely access the content using an origin access control (OAC) and a bucket policy.
+
+---
+
+## 🔧 Prerequisites
+- An AWS account
+- A registered domain name (via Route53 or any registrar)
+
+---
+
+## 🪜 Steps
+
+### 1. **Create an S3 Bucket**
+- Name it the same as your domain, e.g. `example.com`
+- Disable "Block all public access"
+- Do **not** enable static website hosting
+
+### 2. **Upload Website Files**
+```bash
+aws s3 sync ./website s3://example.com
+```
+
+### 3. **Create an Origin Access Control (OAC)**
+- Go to CloudFront > Security > Origin access > Create origin access control
+- Name it `S3-OAC`, sign requests (recommended)
+
+### 4. **Attach a Bucket Policy**
+Replace `BUCKET_NAME` and `CLOUDFRONT_OAC_ID` accordingly.
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "cloudfront.amazonaws.com"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::example.com/*",
+      "Condition": {
+        "StringEquals": {
+          "AWS:SourceArn": "arn:aws:cloudfront::ACCOUNT_ID:distribution/DISTRIBUTION_ID"
+        }
+      }
+    }
+  ]
+}
+```
+
+### 5. **Request an SSL Certificate (ACM)**
+- Region: **us-east-1** (for CloudFront)
+- Request a public certificate for `example.com` and `www.example.com`
+- Validate via DNS (ACM will give DNS records to add in Route53)
+
+### 6. **Create a CloudFront Distribution**
+- Origin domain: your S3 bucket (select it, not type it manually)
+- Origin Access: choose your OAC
+- Viewer protocol policy: Redirect HTTP to HTTPS
+- Alternate domain names (CNAMEs): `example.com`, `www.example.com`
+- SSL Certificate: Select the one you created in ACM
+- Default root object: `index.html`
+
+### 7. **Set Up Route 53 DNS Records**
+- Go to your hosted zone in Route 53
+- Add **A (Alias)** records for:
+  - `example.com` → CloudFront distribution
+  - `www.example.com` → CloudFront distribution
+
+### 8. **Test Your Website**
+- Wait for DNS and CloudFront distribution to propagate (~5–10 minutes)
+- Visit `https://example.com` in your browser
+
+---
+
+## ✅ Summary
+You’ve launched a secure static site using:
+- ✅ S3 (no public access)
+- ✅ CloudFront (with OAC)
+- ✅ HTTPS via ACM
+- ✅ Domain management via Route53
+
+---
+
+## 📁 Example Project Structure
+```
+aws-static-website/
+├── website/
+│   ├── index.html
+│   └── styles.css
+└── README.md
+```
+
+---
+
+## 📌 Notes
+- Use CloudFront invalidations to update content instantly
+- Store logs and enable versioning for your S3 bucket
+- Consider enabling WAF (Web Application Firewall) for added security
+author:groua7
