@@ -1,0 +1,143 @@
+
+🌐 Cybersecurity Controls Explained
+
+Welcome to Cybersecurity Controls Explained, your guide to understanding the various types of controls used to protect systems, networks, and data. Whether you’re just starting out with Security+ or advancing through CySA+, this page is designed to help you grasp the essential security controls that every cybersecurity professional should know.
+
+⸻
+
+📚 Table of Contents
+ 1. What Are Cybersecurity Controls?
+ 2. Types of Controls
+ • Administrative Controls
+ • Technical Controls
+ • Physical Controls
+ 3. Control Function Categories
+ • Preventive
+ • Detective
+ • Corrective
+ • Deterrent
+ • Compensating
+ 4. Real-World Examples
+ 5. For CySA+ Learners
+ 6. Resources
+
+⸻
+
+🛡 What Are Cybersecurity Controls?
+
+Cybersecurity controls are safeguards or countermeasures to avoid, detect, counteract, or minimize security risks to physical property, information, computer systems, or other assets.
+
+⸻
+
+🔐 Types of Controls
+
+1. Administrative Controls
+
+These are policies, procedures, and guidelines.
+ • Security policies
+ • User training and awareness
+ • Hiring practices
+ • Access reviews
+
+2. Technical Controls
+
+These are logical controls enforced through technology.
+ • Firewalls
+ • Antivirus software
+ • Encryption
+ • Authentication mechanisms
+ • IDS/IPS systems
+
+3. Physical Controls
+
+Designed to prevent physical access to systems.
+ • Locks
+ • Security guards
+ • Fences
+ • CCTV
+ • Biometric access systems
+
+⸻
+
+🧭 Control Function Categories
+
+1. Preventive Controls
+
+Stop incidents before they occur.
+ • Firewalls
+ • Security awareness training
+ • Strong passwords
+
+2. Detective Controls
+
+Identify and react to incidents.
+ • Intrusion Detection Systems (IDS)
+ • Audit logs
+ • Video surveillance
+
+3. Corrective Controls
+
+Mitigate the impact and restore systems.
+ • Patch management
+ • Backup and recovery solutions
+ • Incident response plans
+
+4. Deterrent Controls
+
+Discourage malicious actions.
+ • Warning signs
+ • Login banners
+ • Security policies
+ * CCTV
+
+5. Compensating Controls
+
+Alternative controls when primary ones aren’t feasible.
+ • Manual logging in place of automatic logging
+ • Dual-authentication if biometric not available
+
+⸻
+
+🌍 Real-World Examples
+
+Scenario Applied Control Type Function
+Employee training on phishing Administrative Preventive
+Security badge access Physical Preventive
+Antivirus software Technical Preventive/Detective
+Log monitoring Technical Detective
+Disaster recovery plan Administrative Corrective
+
+
+⸻
+
+🎓 For CySA+ Learners
+
+CySA+ takes it further by focusing on threat detection, incident response, and proactive security:
+ • SIEM Configuration & Analysis
+ • Behavioral Analytics
+ • Threat Intelligence Integration
+ • Vulnerability Management Processes
+ • Risk Mitigation Techniques
+
+Understanding how controls fit into frameworks like NIST, ISO 27001, and MITRE ATT&CK will elevate your skillset.
+
+⸻
+
+📘 Resources
+ • CompTIA Security+ Official Website (https://www.comptia.org/certifications/security)
+ • CompTIA CySA+ Official Website (https://www.comptia.org/certifications/cybersecurity-analyst)
+ • NIST SP 800-53 Controls List (https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
+ • OWASP Top 10 (https://owasp.org/www-project-top-ten/)
+ • MITRE ATT&CK Framework (https://attack.mitre.org/)
+
+⸻
+
+💬 Contribute
+
+Have something to add or improve? Fork the repo and send a pull request!
+
+⸻
+
+✅ License
+
+MIT License
