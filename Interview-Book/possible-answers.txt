@@ -7,11 +7,16 @@ These answers are designed to help you prepare confidently and respond like a ca
 
 **1. What is the CIA Triad, and how does it apply to a SOC environment?**
 
-> The CIA Triad stands for Confidentiality, Integrity, and Availability. In a SOC, we work to ensure confidentiality by monitoring unauthorized access, maintain integrity by detecting tampering or malicious changes, and uphold availability by responding quickly to service disruptions or denial-of-service attacks.
+> The CIA Triad stands for Confidentiality, Integrity, and Availability. In a SOC, we work to ensure confidentiality 
+by monitoring unauthorized access, maintain integrity by detecting tampering or malicious changes,
+and uphold availability by responding quickly to service disruptions or denial-of-service attacks.
+
 
 **2. Explain the difference between a vulnerability, a threat, and a risk.**
 
-> A vulnerability is a weakness in a system. A threat is something that can exploit that vulnerability. A risk is the potential impact when a threat exploits a vulnerability. For example, an unpatched server (vulnerability) could be exploited by a hacker (threat), leading to data loss (risk).
+> A vulnerability is a weakness in a system. A threat is something that can exploit that vulnerability.
+A risk is the potential impact when a threat exploits a vulnerability. For example, an unpatched server (vulnerability) 
+could be exploited by a hacker (threat), leading to data loss (risk).
 
 ---
 
@@ -19,23 +24,32 @@ These answers are designed to help you prepare confidently and respond like a ca
 
 **3. What SIEM platforms have you used, and how do you use them to triage alerts?**
 
-> I’ve worked with Splunk and IBM QRadar. I use them to aggregate logs, create dashboards, and investigate alerts. When triaging, I check the alert type, source/destination IPs, event timeline, and correlate it with threat intel to determine whether it’s a false positive or needs escalation.
+> I’ve worked with Splunk and IBM QRadar. I use them to aggregate logs, create dashboards, and investigate alerts.
+When triaging, I check the alert type, source/destination IPs, event timeline, and
+correlate it with threat intel to determine whether it’s a false positive or needs escalation.
+
 
 **4. How do you use Wireshark to investigate suspicious traffic?**
 
-> In Wireshark, I apply filters to isolate relevant traffic (like `http`, `ip.addr == x.x.x.x`, or `tcp.port == 443`). I look for unusual patterns, such as data exfiltration, repeated connections, or unencrypted sensitive data.
+> In Wireshark, I apply filters to isolate relevant traffic (like `http`, `ip.addr == x.x.x.x`, 
+or `tcp.port == 443`). I look for unusual patterns, such as data exfiltration, repeated connections, or unencrypted sensitive data.
 
 ---
 
 ### 🛡️ **SOC Operations & Incident Response**
 
+
 **5. Walk me through the steps of triaging a phishing alert.**
 
-> I’d first analyze the reported email: headers, links, and attachments. I’d check if the sender is spoofed or the URL is malicious via sandboxing or threat intelligence. I’d then look for other recipients and block the domain if confirmed malicious. Finally, I document and escalate if needed.
+> I’d first analyze the reported email: headers, links, and attachments. I’d check if the sender is spoofed or the URL is malicious via sandboxing
+or threat intelligence. I’d then look for other recipients and block the domain if confirmed malicious. Finally, I document and escalate if needed.
+
 
 **6. How do you prioritize alerts when multiple high-severity events are triggered at once?**
 
-> I assess based on asset value, business impact, and proximity to critical infrastructure. I check whether the alert is active or historical and look at patterns that suggest ongoing compromise. Communication with senior analysts helps ensure proper prioritization.
+> I assess based on asset value, business impact, and proximity to critical infrastructure.
+I check whether the alert is active or historical and look at patterns that suggest ongoing compromise.
+Communication with senior analysts helps ensure proper prioritization.
 
 ---
 
@@ -43,11 +57,15 @@ These answers are designed to help you prepare confidently and respond like a ca
 
 **7. What indicators would you look for to detect lateral movement?**
 
-> I’d look for abnormal remote access attempts, such as RDP or SMB connections between endpoints, use of administrative tools like PsExec, credential dumping signs, or Kerberos ticket anomalies. Log correlation is key across multiple systems.
+> I’d look for abnormal remote access attempts, such as RDP or SMB connections between endpoints, 
+use of administrative tools like PsExec, credential dumping signs, or Kerberos ticket anomalies.
+Log correlation is key across multiple systems.
+
 
 **8. How do you detect and respond to brute force attacks?**
 
-> I’d monitor for multiple failed login attempts followed by a success. In response, I’d block the source IP if external or lock the account if internal, investigate login patterns, and review for compromised credentials.
+> I’d monitor for multiple failed login attempts followed by a success. In response, I’d block the source IP if external or
+lock the account if internal, investigate login patterns, and review for compromised credentials.
 
 ---
 
@@ -55,7 +73,8 @@ These answers are designed to help you prepare confidently and respond like a ca
 
 **9. What’s included in an incident report?**
 
-> An incident report includes the alert type, affected systems, timeline of events, actions taken, evidence collected (logs/screenshots), and recommended remediation steps. It also includes who was notified and whether the issue was resolved or escalated.
+> An incident report includes the alert type, affected systems, timeline of events, actions taken, 
+evidence collected (logs/screenshots), and recommended remediation steps. It also includes who was notified and whether the issue was resolved or escalated.
 
 ---
 
@@ -63,27 +82,40 @@ These answers are designed to help you prepare confidently and respond like a ca
 
 **10. Tell me about a time you identified a true positive. What was the impact?**
 
-> In a previous internship, I noticed a strange outbound connection to a known malicious IP. After investigating, I confirmed a user had downloaded a malicious Chrome extension. We isolated the machine and prevented potential data theft. The incident was a good learning experience and helped improve our alert tuning.
+> In a previous internship, I noticed a strange outbound connection to a known malicious IP. After investigating,
+I confirmed a user had downloaded a malicious Chrome extension. We isolated the machine and prevented potential data theft.
+The incident was a good learning experience and helped improve our alert tuning.
+
 
 **11. Describe a situation where you made a mistake during an investigation. How did you recover?**
 
-> Once, I closed an alert too quickly thinking it was a false positive. A senior analyst caught it later as a real threat. I took full accountability, retraced my steps, updated my investigation checklist, and learned the importance of not rushing judgment.
+> Once, I closed an alert too quickly thinking it was a false positive. A senior analyst caught it later as a real threat.
+I took full accountability, retraced my steps, updated my investigation checklist, and learned the importance of not rushing judgment.
+
 
 **12. You’re the only one on shift and an alert suggests ransomware is active. What do you do?**
 
-> I would immediately isolate the affected host(s) from the network, notify my on-call escalation contact, collect volatile data if safe to do so, and document all actions taken. Quick containment is critical in ransomware scenarios.
+> I would immediately isolate the affected host(s) from the network, notify my on-call escalation contact,
+collect volatile data if safe to do so, and document all actions taken. Quick containment is critical in ransomware scenarios.
+
+
 
 **13. You notice unusual outbound traffic from a critical server, but logs are missing. What’s your next step?**
 
-> I would perform live analysis on the server if permitted, collect network-level logs from firewalls or proxies, and use EDR if available. I’d also notify system admins to restore or collect logs, and escalate if a breach is suspected.
+> I would perform live analysis on the server if permitted, collect network-level logs from firewalls or proxies, 
+and use EDR if available. I’d also notify system admins to restore or collect logs, and escalate if a breach is suspected.
+
 
 **14. How would you react if your team lead dismissed an alert you believed was serious?**
 
-> I’d respectfully present my evidence and rationale, showing why the alert deserves another look. If still dismissed, I’d document my findings and monitor the system closely in case more indicators arise.
+> I’d respectfully present my evidence and rationale, showing why the alert deserves another look. If still dismissed,
+I’d document my findings and monitor the system closely in case more indicators arise.
+
 
 **15. How do you ensure your shift handover is clean and effective?**
 
-> I update our shift log with all investigations, ticket numbers, pending alerts, and context on escalated incidents. I also verbally brief the next analyst and ensure nothing critical is left out.
+> I update our shift log with all investigations, ticket numbers, pending alerts, and context on escalated incidents. 
+I also verbally brief the next analyst and ensure nothing critical is left out.
 
 ---
 
