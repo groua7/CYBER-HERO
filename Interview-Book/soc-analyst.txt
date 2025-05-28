@@ -1,0 +1,63 @@
+Here are **30 serious and practical interview questions** tailored for a **Tier 1 SOC Analyst** role, including **situational and behavioral questions** 
+
+---
+
+## 🔐 **1. Core Cybersecurity Knowledge**
+
+1. **What is the CIA Triad, and how does it apply to a SOC environment?**
+2. **Explain the difference between a vulnerability, a threat, and a risk.**
+3. **What is a zero-day vulnerability? How should a SOC respond to one?**
+4. **How does an IDS differ from an IPS? Provide real-world examples.**
+5. **What are the most common attack vectors seen in enterprise environments?**
+
+---
+
+## 🧰 **2. Tools & Technologies**
+
+6. **What SIEM platforms have you used, and how do you use them to triage alerts?**
+7. **Describe the types of logs you analyze (e.g., endpoint, DNS, firewall, proxy).**
+8. **How do you use Wireshark to investigate suspicious traffic?**
+9. **What is the purpose of EDR tools, and how do you use them in investigations?**
+10. **Can you explain how threat intelligence feeds are used in a SOC?**
+
+---
+
+## 🛡️ **3. SOC Operations & Incident Response**
+
+11. **Walk me through the steps of triaging a phishing alert.**
+12. **What would you do if you saw multiple failed logins followed by a successful login from an unusual location?**
+13. **How do you decide whether to escalate an alert to Tier 2?**
+14. **What’s your process for handling malware alerts on a user’s workstation?**
+15. **How do you prioritize alerts when multiple high-severity events are triggered at once?**
+
+---
+
+## 🧠 **4. Threat Detection & Analysis**
+
+16. **What indicators would you look for to detect lateral movement?**
+17. **How do you detect and respond to brute force or password-spraying attacks?**
+18. **Explain how you would respond to a suspected DDoS attack.**
+19. **How do you analyze a suspicious domain or IP address?**
+20. **What is a false positive, and how do you minimize them?**
+
+---
+
+## 🧾 **5. Documentation, Reporting & Processes**
+
+21. **What elements do you include in an incident report?**
+22. **Describe the role of a SOC playbook. Have you followed or contributed to one?**
+23. **How do you ensure your shift handover is clean and effective?**
+24. **Why is proper ticket documentation critical in a SOC?**
+25. **What KPIs or metrics are important to track SOC performance?**
+
+---
+
+## 🎭 **6. Situational & Behavioral Questions**
+
+26. **Tell me about a time you identified a true positive. What was the impact?**
+27. **Describe a situation where you made a mistake during an investigation. How did you recover?**
+28. **How would you react if your team lead dismissed an alert you believed was serious?**
+29. **You’re the only one on shift and an alert suggests ransomware is active. What do you do?**
+30. **You notice unusual outbound traffic from a critical server, but logs are missing. What’s your next step?**
+
+@groua7
