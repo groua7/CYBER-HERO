@@ -1,0 +1,93 @@
+
+🛡️ Cybersecurity Analyst Toolbox
+
+A curated list of tools every cybersecurity analyst should know — from malware analysis to threat intelligence, link verification, forensics, and beyond.
+
+🚀 Boost your efficiency and strengthen your security posture using this powerful toolbox.
+
+⸻
+
+📂 Table of Contents
+ • 🔍 Threat Intelligence & URL Scanners
+ • 🛠️ Malware Analysis Tools
+ • 🧰 Network & Log Analysis
+ • 🔓 Password & Credential Tools
+ • 🧪 Pentesting & Vulnerability Scanners
+ • 📘 Resources & Cheat Sheets
+
+⸻
+
+🔍 Threat Intelligence & URL Scanners
+
+Tool Use Case Link
+VirusTotal (https://www.virustotal.com/) Analyze files and URLs for viruses, worms, trojans 🔗 Visit (https://www.virustotal.com/)
+URLScan.io (https://urlscan.io/) Scan and analyze websites for suspicious activity 🔗 Visit (https://urlscan.io/)
+Hybrid Analysis (https://www.hybrid-analysis.com/) Malware and URL analysis powered by CrowdStrike 🔗 Visit (https://www.hybrid-analysis.com/)
+Any.run (https://any.run/) Interactive malware sandbox 🔗 Visit (https://any.run/)
+ThreatFox (https://threatfox.abuse.ch/) Lookup IOC and threat feeds 🔗 Visit (https://threatfox.abuse.ch/)
+
+
+⸻
+
+🛠️ Malware Analysis Tools
+
+Tool Use Case Link
+Intezer Analyze (https://analyze.intezer.com/) Identify malware code reuse and gene analysis 🔗 Visit (https://analyze.intezer.com/)
+Joe Sandbox (https://www.joesandbox.com/) Deep malware behavior analysis 🔗 Visit (https://www.joesandbox.com/)
+PEStudio (https://www.winitor.com/) Analyze executable files without running them 🔗 Visit (https://www.winitor.com/)
+MalwareBazaar (https://bazaar.abuse.ch/) Download and analyze live malware samples 🔗 Visit (https://bazaar.abuse.ch/)
+
+
+⸻
+
+🧰 Network & Log Analysis
+
+Tool Use Case Link
+Wireshark (https://www.wireshark.org/) Network protocol analyzer 🔗 Visit (https://www.wireshark.org/)
+TCPDump (https://www.tcpdump.org/) CLI packet capture tool 🔗 Visit (https://www.tcpdump.org/)
+Splunk Free (https://www.splunk.com/en_us/software/splunk-free.html) Log analysis and SIEM tool 🔗 Visit (https://www.splunk.com/en_us/software/splunk-free.html)
+Elastic Stack (https://www.elastic.co/elastic-stack) Log, search, and visualize threat data 🔗 Visit (https://www.elastic.co/elastic-stack)
+Sysmon + LogParser (https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) Endpoint monitoring and forensic log generation 🔗 Visit (https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+
+
+⸻
+
+🔓 Password & Credential Tools
+
+Tool Use Case Link
+Have I Been Pwned (https://haveibeenpwned.com/) Check for exposed credentials 🔗 Visit (https://haveibeenpwned.com/)
+CrackStation (https://crackstation.net/) Password hash cracking 🔗 Visit (https://crackstation.net/)
+John the Ripper (https://www.openwall.com/john/) Password cracker 🔗 Visit (https://www.openwall.com/john/)
+Hashcat (https://hashcat.net/hashcat/) Advanced password recovery 🔗 Visit (https://hashcat.net/hashcat/)
+
+
+⸻
+
+🧪 Pentesting & Vulnerability Scanners
+
+Tool Use Case Link
+Nmap (https://nmap.org/) Network discovery and vulnerability scanning 🔗 Visit (https://nmap.org/)
+Shodan (https://www.shodan.io/) Search engine for internet-connected devices 🔗 Visit (https://www.shodan.io/)
+Burp Suite (Community) (https://portswigger.net/burp) Web vulnerability scanner 🔗 Visit (https://portswigger.net/burp)
+OWASP ZAP (https://www.zaproxy.org/) Web app security scanner 🔗 Visit (https://www.zaproxy.org/)
+Nikto (https://cirt.net/Nikto2) Web server scanner 🔗 Visit (https://cirt.net/Nikto2)
+
+
+⸻
+
+📘 Resources & Cheat Sheets
+
+Resource Use Case Link
+MITRE ATT&CK (https://attack.mitre.org/) Tactics, techniques, and procedures (TTPs) 🔗 Visit (https://attack.mitre.org/)
+CyberChef (https://gchq.github.io/CyberChef/) Encode, decode, parse, and analyze data 🔗 Visit (https://gchq.github.io/CyberChef/)
+Red Team Tools (https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) Offensive security tools list 🔗 Visit (https://github.com/yeyintminthuhtut/Awesome-Red-Teaming)
+Blue Team Tools (https://github.com/meitar/awesome-blue-team) Defensive tools for analysts 🔗 Visit (https://github.com/meitar/awesome-blue-team)
+
+
+⸻
+
+🌐 Want to Contribute?
+
+Feel free to fork, clone, or suggest tools via Pull Requests. Let’s help each other become better analysts.
+
+
