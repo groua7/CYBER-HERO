@@ -1,0 +1,106 @@
+ 3-month Cybersecurity Tip of the Day list (90 tips) you can use for a mobile app, newsletter, or daily posts.
+ They’re short, practical, and beginner-friendly.
+
+⸻
+
+🔐 Cybersecurity Tips – Day 1 to Day 30 (Month 1)
+ 1. Use strong, unique passwords for every account.
+ 2. Enable two-factor authentication (2FA) everywhere you can.
+ 3. Don’t use your pet’s name or birthday as a password.
+ 4. Update your phone and computer regularly.
+ 5. Don’t click on links from unknown senders.
+ 6. Check email addresses carefully before replying.
+ 7. Avoid using public Wi-Fi for banking or shopping.
+ 8. Use a password manager to keep track of your logins.
+ 9. Back up important files regularly.
+ 10. Lock your phone with a PIN or biometric security.
+ 11. Don’t overshare personal info on social media.
+ 12. Review app permissions and remove what’s unnecessary.
+ 13. Watch out for “urgent” messages—they’re often scams.
+ 14. Don’t reuse the same password across websites.
+ 15. Check websites for HTTPS before entering sensitive info.
+ 16. Cover your webcam when not in use.
+ 17. Think before clicking ads—even on trusted sites.
+ 18. Use a VPN when on public networks.
+ 19. Check your bank statements for suspicious activity.
+ 20. Keep your antivirus software updated.
+ 21. Don’t download apps from unknown sources.
+ 22. Clear browser cookies and cache regularly.
+ 23. Log out of accounts you’re not using.
+ 24. Report phishing attempts to your email provider.
+ 25. Review your Facebook/Instagram privacy settings.
+ 26. Don’t respond to pop-up alerts about viruses.
+ 27. Learn to recognize common phishing phrases.
+ 28. Use different emails for different types of accounts.
+ 29. Keep work and personal devices separate.
+ 30. Don’t scan unknown QR codes in public places.
+
+
+
+⸻
+🔐 Cybersecurity Tips – Day 31 to Day 60 (Month 2)
+ 31. Avoid clicking links in text messages from unknown numbers.
+ 32. Use biometric login instead of password where available.
+ 33. Set up alerts for suspicious login attempts.
+ 34. Delete old accounts you no longer use.
+ 35. Don’t save payment info on shared devices.
+ 36. Be cautious of free online giveaways.
+ 37. Disable Bluetooth when not in use.
+ 38. Lock your screen when stepping away.
+ 39. Monitor credit reports for identity theft.
+ 40. Avoid USB drives from unknown sources.
+ 41. Don’t post real-time travel plans online.
+ 42. Be skeptical of unexpected attachments in emails.
+ 43. Double-check URLs before entering credentials.
+ 44. Turn off location tracking for unused apps.
+ 45. Read app reviews before downloading.
+ 46. Educate family members about scams.
+ 47. Don’t auto-connect to open Wi-Fi.
+ 48. Use guest mode for visitors on your home Wi-Fi.
+ 49. Create separate logins for family members on shared computers.
+ 50. Enable screen timeouts on your devices.
+ 51. Use multi-layered security when possible.
+ 52. Log into financial accounts only from trusted devices.
+ 53. Don’t accept friend requests from strangers.
+ 54. Be aware of shoulder surfing in public places.
+ 55. Use a firewall on your home network.
+ 56. Think twice before allowing notifications from websites.
+ 57. Store important documents in secure cloud storage.
+ 58. Beware of fake job offers that ask for personal info.
+ 59. Don’t click “unsubscribe” in spam—mark it as spam instead.
+ 60. Turn off autofill for sensitive information in browsers.
+
+
+
+⸻
+🔐 Cybersecurity Tips – Day 61 to Day 90 (Month 3)
+ 61. Change your Wi-Fi password regularly.
+ 62. Use complex answers to security questions.
+ 63. Use apps from official stores only (Google Play, App Store).
+ 64. Don’t install browser toolbars from sketchy sites.
+ 65. Review privacy settings on your smart devices.
+ 66. Don’t store passwords in plain text files.
+ 67. Check device activity on your accounts (Google, Apple, etc.).
+ 68. Be careful when downloading software from forums.
+ 69. Avoid using public charging stations.
+ 70. Test your passwords on “Have I Been Pwned.”
+ 71. Keep an inventory of your devices.
+ 72. Delete old backup files that contain sensitive info.
+ 73. Use encrypted messaging apps when needed (e.g., Signal).
+ 74. Avoid clicking suspicious pop-ups that say “You won a prize.”
+ 75. Sign out from sessions on shared/public computers.
+ 76. Bookmark frequently used login pages to avoid fake ones.
+ 77. Be cautious of fake antivirus software ads.
+ 78. Update router firmware for better security.
+ 79. Scan downloaded files before opening.
+ 80. Use different browsers for work and personal browsing.
+ 81. Disable voice assistants when not in use.
+ 82. Don’t share one password across family members.
+ 83. Keep sensitive files in encrypted folders.
+ 84. Be wary of emails from “support” that you didn’t contact.
+ 85. Only install browser extensions you really need.
+ 86. Don’t blindly trust Google search results—scams can appear there too.
+ 87. Avoid shortened links from unknown sources (bit.ly, etc.).
+ 88. Teach your kids about internet safety early.
+ 89. Review connected devices in your email and social accounts.
+ 90. Never assume a message is real just because it uses your name.
