@@ -1,0 +1,77 @@
+ Here’s a simple and easy answer to each of the interview prep questions 
+
+
+1. How to check a fake IP?
+👉 Go to https://www.abuseipdb.com (https://www.abuseipdb.com/)
+👉 Enter the IP address to see if it’s reported for abuse or bad activity.
+
+⸻
+
+2. What happens when you type www.example.com in your browser?
+ 1. DNS translates the domain to an IP.
+ 2. Browser connects to the server with that IP.
+ 3. Server sends the website files (HTML, images, etc.).
+ 4. Browser displays the website.
+
+⸻
+
+3. Tell me more about yourself.
+“I’m a passionate cybersecurity/IT professional with hands-on knowledge in networking, security tools,
+and troubleshooting. I enjoy solving problems and learning new tech every day.”
+
+⸻
+
+4. Customers report that the connection is very slow. How do you fix that?
+ 1. Check the network speed.
+ 2. Restart the router/switch.
+ 3. Look for high bandwidth usage or devices causing congestion.
+ 4. Run a ping or traceroute test.
+ 5. Contact the ISP if needed.
+
+⸻
+
+5. What is virtualization?
+It’s running multiple virtual computers (VMs) on one physical machine using software like VMware or VirtualBox.
+
+⸻
+
+6. What is happiness?
+Happiness is a state of well-being, feeling good, and being satisfied with life or a situation.
+
+⸻
+
+7. What is one difficult problem you solved and how?
+Example:
+“One day, a network went down in the office. I found a faulty switch and replaced it.
+I then reconnected devices and restored network access quickly.”
+
+⸻
+
+8. How will you set up a network for a new company of 30–40 employees?
+ 1. Get a good internet connection.
+ 2. Set up a router and switches.
+ 3. Create wired/wireless access.
+ 4. Assign IPs (DHCP).
+ 5. Secure with a firewall.
+ 6. Add backup and monitoring tools.
+
+⸻
+
+9. How would you set up Active Directory for 45 employees?
+ 1. Install Windows Server.
+ 2. Set up Active Directory Domain Services (AD DS).
+ 3. Create users and groups.
+ 4. Set group policies for security.
+ 5. Join employee PCs to the domain.
+
+⸻
+
+10. What is ARP?
+ARP (Address Resolution Protocol) maps an IP address to a MAC address so devices can communicate on a local network.
+
+⸻
+
+11. Tell me more about DNS.
+DNS (Domain Name System) translates website names (like google.com) into IP addresses,
+so computers can find and talk to each other on the internet.
+
